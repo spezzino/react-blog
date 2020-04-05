@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List gets populated with items 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root comment-item MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiCardContent-root"
+  >
+    <h4
+      className="MuiTypography-root MuiTypography-h6"
+    >
+      Name
+    </h4>
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      body
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostItem renders 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root list-item MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiCardContent-root"
+  >
+    <h2
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      Test title
+    </h2>
+    <p
+      className="MuiTypography-root pos MuiTypography-body1 MuiTypography-colorTextSecondary"
+    >
+      by 
+      User 1
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      Test body
+    </p>
+  </div>
+</div>
+`;
+
+exports[`PostItem renders with View More Button 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root list-item MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiCardContent-root"
+  >
+    <h2
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      Test title
+    </h2>
+    <p
+      className="MuiTypography-root pos MuiTypography-body1 MuiTypography-colorTextSecondary"
+    >
+      by 
+      User 1
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      Test body
+    </p>
+  </div>
+  <div
+    className="MuiCardActions-root MuiCardActions-spacing"
+  >
+    <a
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+      href="/posts/1"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        className="MuiButton-label"
+      >
+        View more
+      </span>
+    </a>
+  </div>
+</div>
+`;
